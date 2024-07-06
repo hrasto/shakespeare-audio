@@ -3,7 +3,7 @@
 Python scripts for building a dataset of parallel audio and text suitable for machine learning experiments (e.g. language modeling).
 
 By default, it downloads 3 shakespeare plays from [LibriVox](https://librivox.org) ([Romeo & Juliet](https://librivox.org/romeo-and-juliet-version-4-by-william-shakespeare/), [Hamlet](https://librivox.org/hamlet-version-3-by-william-shakespeare/) and [As You Like It](https://librivox.org/as-you-like-it-version-3-by-william-shakespeare/)), and transcribes them using [whisper.cpp](https://github.com/ggerganov/whisper.cpp).
-These recordings were created by volunteers and contain several male and female voices and dialects.
+These recordings were created by volunteers, contain several male and female voices, and a variety of English accents.
 
 ## Quick start
 
