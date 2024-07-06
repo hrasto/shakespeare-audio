@@ -3,11 +3,10 @@ import scripts.download_mp3
 import scripts.install_whisper
 import scripts.mp3_to_wav
 import scripts.wav_to_text
-import scripts.cleanup
 
 kwargs = dict(
     model="base.en", 
-    test_files=[3],
+    test_files=[3,7,12],
     resources=[],
 )
 
@@ -27,4 +26,3 @@ scripts.download_mp3.run(*kwargs['resources'])
 scripts.install_whisper.run(kwargs['model'])
 scripts.mp3_to_wav.run(*kwargs['test_files'])
 scripts.wav_to_text.run(*kwargs['test_files'], model=kwargs['model'])
-scripts.cleanup.run()
