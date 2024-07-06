@@ -6,6 +6,9 @@ By default, it downloads 3 shakespeare plays from [LibriVox](https://librivox.or
 
 ## Quick start
 
+You need to have [ffmpeg](https://ffmpeg.org) and [sox](https://sourceforge.net/projects/sox/) installed.
+If you have them, you can clone the repository and run the main.py script: 
+
 ```
 git clone https://github.com/hrasto/shakespeare-audio
 cd shakespeare-audio
