@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__
+*.wav
+*.txt
+*.csv
+*.mp3
+*.zip
+whisper.cpp
+!requirements.txt
