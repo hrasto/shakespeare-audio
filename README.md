@@ -6,7 +6,7 @@ By default, it downloads 3 shakespeare plays from [LibriVox](https://librivox.or
 
 Quick start:
 
-1. `git clone `
-2. `cd && pip install -r requirements.txt && python main.py `
+1. `git clone https://github.com/hrasto/shakespeare-audio`
+2. `cd shakespeare-audio && pip install -r requirements.txt && python main.py `
 
 The script may run for several minutes, as it needs to download and extract the archives, convert the mp3s to wavs, and run whisper to transcribe word by word, so that we can align the waveforms with the text via precise timestamps.
