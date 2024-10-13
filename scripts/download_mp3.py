@@ -5,6 +5,8 @@ default_resources = [
     "https://www.archive.org/download//romeojuliet_v4_1502_librivox/romeojuliet_v4_1502_librivox_64kb_mp3.zip",
     "https://www.archive.org/download/hamlet_1209_librivox/hamlet_1209_librivox_64kb_mp3.zip",
     "https://www.archive.org/download//as_you_like_it_version_3_2012_librivox/as_you_like_it_version_3_2012_librivox_64kb_mp3.zip",
+    "https://www.archive.org/download/antony_cleopatra_1109_librivox/antony_cleopatra_1109_librivox_64kb_mp3.zip",
+    "https://www.archive.org/download//birthofmerlin_2103_librivox/birthofmerlin_2103_librivox_64kb_mp3.zip",
 ]
 
 def run(*resources): 
